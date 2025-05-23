@@ -16,7 +16,7 @@ class DevolucaoController extends Controller
     public function show(Request $request)
     {
         $request->validate([
-            'filial' => 'required|numeric|min:3|max:14',
+            'filial' => 'required|numeric|min:1|max:14',
             'codauxiliar' => 'required|numeric',
             'dtinicial' => 'required|date',
             'dtfinal' => 'required|date',

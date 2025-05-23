@@ -18,7 +18,7 @@ class ItensController extends Controller
     {
 
         $request->validate([
-            'filial' => 'required|numeric|min:3|max:14',
+            'filial' => 'required|numeric|min:1|max:14',
             'numnota' => 'required',
             'numcaixa' => 'required',
             'dtsaida' => 'required|date',
